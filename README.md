@@ -20,11 +20,9 @@ Service Provider.
        'driver'                               => 'gcs',
        // The id of your new service account
        'service_account'                      => 'service@account.iam.gserviceaccount.com',
-       // The location of the p12 service account certificate
-       'service_account_certificate'          => storage_path() . '/credentials.p12', 
-       // The password you will be given when creating the service account
-       'service_account_certificate_password' => 'yourpassword',
-       // The bucket you want this disk to point at
+       // The location of the json service account file
+       'service_account_json'          => storage_path() . '/service_account.json',
+       // The bucket you want this disk to point at (To change with your bucket name)
        'bucket'                               => 'cloud-storage-bucket',
    ],
    ```
