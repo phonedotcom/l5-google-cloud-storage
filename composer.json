@@ -1,5 +1,5 @@
 {
-    "name": "websight/l5-google-cloud-storage",
+    "name": "remisirdata/l5-google-cloud-storage",
     "description": "Laravel 5 Flysystem Google Cloud Storage  Service Provider",
     "require": {
         "illuminate/support": "~5.0.17|5.1.*|5.2.*",
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Cedric Ziel",
-            "email": "ziel@websight.de"
+            "name": "Rémi Demol",
+            "email": "rde@sirdata.fr"
         }
     ],
     "autoload": {
