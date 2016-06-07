@@ -6,7 +6,7 @@
         "superbalist/flysystem-google-storage": "^1.0"
     },
     "keywords": ["laravel", "laravel5", "flysystem"],
-    "homepage": "https://github.com/websightgmbh/l5-google-cloud-storage",
+    "homepage": "https://github.com/RemiSirdata/l5-google-cloud-storage",
     "license": "MIT",
     "authors": [
         {
