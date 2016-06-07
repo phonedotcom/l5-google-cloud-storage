@@ -29,6 +29,7 @@ class CloudStorageServiceProvider extends ServiceProvider
         Storage::extend('gcs', function ($app, $config) {
             $client = new Google_Client();
             $client->setAuthConfig($config['service_account_json']);
+            $client->addScope(Google_Service_Storage::DEVSTORAGE_FULL_CONTROL);
 
             $service = new Google_Service_Storage($client);
             $adapter = new GoogleStorageAdapter($service, $config['bucket']);
